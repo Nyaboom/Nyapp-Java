@@ -9,6 +9,9 @@ public class Yapper {
     }
 
     public static void info(String text) {
-        System.out.println("\u001B[34m[INFO] \u001B[0m" + text);
+        System.out.println("\u001B[34m[INFO] " + text + "\u001B[0m");
+    }
+    public static void debug(String text) {
+        System.out.println("[DEBUG] " + text);
     }
 }
